@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main {
+  position: relative;
+}
+.modal {
+  width: 300px;
+  height: 300px;
+}
+.table {
+  width: 80%;
+  margin: auto;
+}
+.breadCrumb ul li {
+  list-style-type: none;
+  display: inline;
+}
+input.red {
+  border: 1px solid red;
+}
+input.green {
+  border: 1px solid green;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  clear: both;
+}
+thead tr {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+.pagination {
+  display: inline-block;
+  float: right;
+  margin: 10px 0;
+}
+
+.pagination button {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.pagination button.active {
+  background-color: #20b2aa;
+  color: white;
+  border: 1px solid #20b2aa;
+}
+.pagination button:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.searchField {
+  width: 200px;
+  margin-right: 15px;
+}
+select {
+  margin-left: 15px;
+}
+.showOptions {
+  vertical-align: middle;
+  margin-left: 10px;
+}
